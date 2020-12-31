@@ -55,17 +55,17 @@ public class AgvMapperTest {
 
     @Test
     public void testBucketIn(){
-        BucketIn.buckerIn(2,"http://172.31.236.88:8071/api/wcs/standardized/bucket/in");
+        BucketIn.buckerIn(1,"http://172.31.238.16:30577/api/wcs/standardized/bucket/in");
     }
 
     @Test
     public void testBucketMove(){
-         BucketMoveJob.sendBucketMoveJob(2,100,"http://172.31.236.88:8071/api/wcs/standardized/robot/job/submit");
-//         BucketMoveJob.sendBucketMoveJob(1,50,"http://172.31.238.229:30955/api/wcs/standardized/robot/job/submit");
+//         BucketMoveJob.sendBucketMoveJob(2,1,"http://172.31.236.88:8071/api/wcs/standardized/robot/job/submit");
+         BucketMoveJob.sendBucketMoveJob(1,1,"http://172.31.238.229:30955/api/wcs/standardized/robot/job/submit");
     }
 
     @Test
     public void testOperaate(){
-        SendOperate.sendOperate(2,"http://172.31.236.88:8071/api/wcs/standardized/operation/notice");
+        SendOperate.sendOperate(1,"http://172.31.238.229:30955/api/wcs/standardized/operation/notice");
     }
 }
