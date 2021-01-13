@@ -55,7 +55,7 @@ public class AgvMapperTest {
 
     @Test
     public void testBucketIn(){
-        BucketIn.buckerIn(1,"http://172.31.238.16:30577/api/wcs/standardized/bucket/in");
+        BucketIn.buckerIn(2,"http://172.31.236.88:8071/api/wcs/standardized/bucket/in");
     }
 
     @Test
